@@ -1,0 +1,24 @@
+.section-heading {
+  background-color: #068b75; 
+  text-align: center; 
+  padding: 0.75rem 1rem; 
+  margin: 0 auto; 
+  color: white; 
+  font-size: 1.5rem; 
+  text-transform: uppercase;
+  transform: rotate(-6deg); 
+  display: block; 
+  max-width: fit-content; 
+}
+
+@media (min-width: 640px) {
+  .section-heading {
+    font-size: 1.875rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 2.25rem; 
+  }
+}

@@ -1,0 +1,30 @@
+.custom-container {
+    padding-top: 4rem; 
+    padding-bottom: 4rem; 
+    background-color: #707070; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.custom-grid-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 3rem; 
+    align-items: center; 
+}
+
+/* Responsive styles */
+@media (min-width: 768px) { 
+    .custom-grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (min-width: 1280px) { 
+    .custom-grid-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}

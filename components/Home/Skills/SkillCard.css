@@ -1,0 +1,35 @@
+.skill-card {
+    padding: 1.5rem; 
+    cursor: pointer; 
+    text-align: center; 
+    border-radius: 0.5rem; 
+    color: #6b7280; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.skill-card:hover {
+    background-color: #121212; 
+}
+
+.skill-card img {
+    width: 80px;
+    height: 80px; 
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+.skill-card__title {
+    font-size: 1.125rem; 
+    margin-top: 1rem; 
+    color: white; 
+    font-weight: 600; 
+}
+
+.skill-card__percent {
+    background-color: black;
+    margin-top: 1rem; 
+    border-radius: 0.5rem; 
+    padding: 0.5rem;
+    color: white;
+    opacity: 0.4; 
+}
